@@ -12,6 +12,9 @@ const FeedbackOptions = ({ options, onBtnClick }) => (
   </div>
 );
 
+
+
+
 FeedbackOptions.propTypes = {
   options: PropTypes.array.isRequired,
   onBtnClick: PropTypes.func.isRequired,
